@@ -104,7 +104,7 @@ public class TrigCalculatorAppHelper extends TrigonometryFunction {
             calculateProduct(isSine);
         } else {
             String operationChoice = askOperation();
-            calculateResultAngles(isSine, operationChoice);
+            calculateResultAngles(functionChoice.equals("Sine"), operationChoice);
         }
     }
 
